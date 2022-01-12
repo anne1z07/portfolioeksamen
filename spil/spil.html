@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <title>The Snoop Game</title>
+  </head>
+  <body>
+        <div class="container15">
+      <div class="image21">
+        <img src="process/titel.png" alt="Titel" />
+      </div>
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Hjem</a>
+          </li>
+          <li>
+            <a href="spil.html">Spillet</a>
+          </li>
+          <li>
+            <a href="doku.html">Dokumentation</a>
+          </li>
+
+          <li>
+            <a href="asset.html">Assetliste</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+      <main>
+<div class="spiltekst">
+        <h1>The Snoop Game</h1>
+        <p> <em><b>DISCLAIMER:</b> Spillet er ikke 100% færdigt endnu. Det er igang med at blive fikset.</em></p>
+      </div>
+
+    <div id="screen">
+      <div id="game">
+        <div id="game_background"></div>
+      </div>
+      <div id="forgrund"></div>
+
+      <div id="game_elements">
+        <div id="joint_container">
+          <div id="joint_sprite" class=""></div>
+        </div>
+
+        <div id="joint1_container">
+          <div id="joint1_sprite" class=""></div>
+        </div>
+
+        <div id="vape_container">
+          <div id="vape_sprite" class=""></div>
+        </div>
+
+        <div id="vape1_container">
+          <div id="vape1_sprite" class=""></div>
+        </div>
+
+        <div id="cigaret_container">
+          <div id="cigaret_sprite" class=""></div>
+        </div>
+
+        <div id="cigaret1_container">
+          <div id="cigaret1_sprite" class=""></div>
+        </div>
+      </div>
+
+      <div id="game_ui">
+        <div id="score_board">
+          <div id="point_container">
+            <div id="point_sprite"></div>
+            <p><span id="mine_point"> 0 </span></p>
+          </div>
+        </div>
+
+        <div id="energy_board">
+          <!-- <div id="liv_container">
+            <div id="liv_sprite" class="liv"></div>
+          </div> -->
+          <div id="liv1"></div>
+          <div id="liv2"></div>
+          <div id="liv3"></div>
+        </div>
+
+        <div id="time_board">
+          <div id="tid_container">
+            <div id="tid_sprite" class="tid"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="start" class="">
+        <div id="startknap"></div>
+      </div>
+      <div id="game_over" class="">
+        <div id="playagain1"></div>
+      </div>
+      <div id="level_complete" class="">
+        <div id="playagain2"></div>
+      </div>
+    </div>
+
+    <!-- audio elementer  -->
+    <audio src="sounds/magical.mp3" id="sound_magical"></audio>
+    <audio src="sounds/garbage.mp3" id="sound_garbage"></audio>
+    <audio src="sounds/sad.mp3" id="sound_sad"></audio>
+    <script src="script.js"></script>
+  </body>
+</main>
+</html>

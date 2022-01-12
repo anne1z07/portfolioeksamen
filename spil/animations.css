@@ -1,0 +1,267 @@
+.joint {
+  animation-name: joint_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+@keyframes joint_sprite_kf {
+  0% {
+    filter: drop-shadow(10px 10px 30px yellow);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.joint1 {
+  animation-name: joint1_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+@keyframes joint1_sprite_kf {
+  0% {
+    filter: drop-shadow(10px 10px 30px yellow);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.vape {
+  animation-name: vape_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+@keyframes vape_sprite_kf {
+  0% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.vape1 {
+  animation-name: vape1_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+@keyframes vape1_sprite_kf {
+  0% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.cigaret {
+  animation-name: cigaret_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+@keyframes cigaret_sprite_kf {
+  0% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50% {
+    filter: grayscale(200%);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.cigaret1 {
+  animation-name: cigaret1_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+@keyframes cigaret1_sprite_kf {
+  0% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50% {
+    filter: grayscale(200%);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.liv {
+  animation-name: liv_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+.falling1 {
+  animation-name: falling_1_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+@keyframes falling_1_kf {
+  from {
+    transform: translateY(500%);
+  }
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+.falling2 {
+  animation-name: falling_2_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+@keyframes falling_2_kf {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(-4%);
+  }
+}
+
+.falling3 {
+  animation-name: falling_3_kf;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: infinite;
+}
+
+@keyframes falling_3_kf {
+  from {
+    transform: translateY(500%);
+  }
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+.tid {
+  animation-name: tid_kf;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes tid_kf {
+  0% {
+    transform: scaley(1);
+    background-color: rgb(61, 187, 61);
+  }
+
+  30% {
+    background-color: yellow;
+  }
+
+  100% {
+    transform: scaleY(0);
+    background-color: red;
+  }
+}
+
+.mistetliv {
+  opacity: 0.3;
+}
+
+/* random positionering */
+.pos1 {
+  top: 61%;
+  left: 37%;
+}
+
+.pos2 {
+  top: 62%;
+  left: 49%;
+}
+
+.pos3 {
+  top: 62%;
+  left: 60%;
+}
+
+.pos4 {
+  top: 75%;
+  left: 30%;
+}
+
+.pos5 {
+  top: 75%;
+  left: 42%;
+}
+
+.pos6 {
+  top: 75%;
+  left: 53%;
+}
+
+.pos7 {
+  top: 75%;
+  left: 64%;
+}
+
+/* Random delay */
+
+.delay1 {
+  animation-delay: 1s;
+}
+
+.delay2 {
+  animation-delay: 4s;
+}
+
+.delay3 {
+  animation-delay: 2s;
+}
+
+.delay4 {
+  animation-delay: 5s;
+}
+
+/* random speed */
+
+.speed1 {
+  animation-duration: 2s;
+}
+
+.speed2 {
+  animation-duration: 3s;
+}
+
+.speed3 {
+  animation-duration: 4s;
+}
+
+.speed4 {
+  animation-duration: 5s;
+}
+
+/* pause animation */
+
+.pause {
+  animation-play-state: paused;
+}

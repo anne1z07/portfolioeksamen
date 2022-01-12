@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <filter id="AA" x="23" y="38" width="233" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Favikon_5">
+      <rect width="260" height="260"/>
+    </clipPath>
+  </defs>
+  <g id="Favikon_5" data-name="Favikon – 5" clip-path="url(#clip-Favikon_5)">
+    <rect width="260" height="260" fill="#d468fb"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#AA)">
+      <text id="AA-2" data-name="AA" transform="translate(25 40)" fill="#ffb600" stroke="#fefefe" stroke-width="2" font-size="150" font-family="Silom" letter-spacing="-0.005em"><tspan x="0" y="144">AA</tspan></text>
+    </g>
+  </g>
+</svg>

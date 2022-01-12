@@ -1,0 +1,43 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  font-family: "Limelight", cursive;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Limelight", cursive;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 46%;
+  background-color: rgb(156, 141, 151);
+  padding: 2%;
+  font-family: "Orelega One", cursive;
+  color: white;
+}
+
+#btn:hover {
+  color: rgb(214, 192, 201);
+}
+
+.knap {
+  background-color: rgb(156, 141, 151);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.knap:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
